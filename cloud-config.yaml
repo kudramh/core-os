@@ -1,0 +1,8 @@
+#cloud-config
+hostname: "coreos1"
+users:
+  - name: “devops”
+    passwd: "$1$gGSgTXYa$FEWnPCH2/wtWu7Iig7R5d."
+    groups:
+      - "sudo"
+      - "docker"
