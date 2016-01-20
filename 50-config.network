@@ -1,0 +1,7 @@
+[Match]
+Name=enp0s8
+
+[Network]
+Address=10.245.1.2/24
+#post-up route add -net 10.245.1.0 netmask 255.255.255.0
+ 
