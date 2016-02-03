@@ -4,8 +4,8 @@ kind: Service
 metadata:
   labels:
     name: webserver
-    name: webserver-service
-    namespace: default
+  name: webserver-service
+  namespace: default
 spec:
   ports:
   - port: 80
